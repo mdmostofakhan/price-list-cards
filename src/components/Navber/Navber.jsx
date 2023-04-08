@@ -44,7 +44,7 @@ const Navber = () => {
                  <Bars3Icon className="h-6 w-6 text-purple-500" />:
                <XMarkIcon className="h-6 w-6 text-purple-500" />
              }
-             </span>
+             </span>  
            </div>
 
             <ul className={`md:flex obsolute md:static duration-500 pl-8 py-2
