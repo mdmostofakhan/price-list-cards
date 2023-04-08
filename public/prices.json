@@ -3,19 +3,18 @@
       "id": 1,
       "name": "Basic",
       "price": 50,
-      "desc": "Access to cardio equipment and weight machines during regular business hours."
+      "features": ["Gym access", "Locker room", "1 fitness ckass/week"]
     },
     {
       "id": 2,
       "name": "Premium",
       "price": 100,
-      "desc": "24/7 access to all equipment, plus group fitness classes."
+      "features": ["Gym access", "Locker room", "1 fitness ckass/week", "1personal training session"]
     },
     {
       "id": 3,
       "name": "VIP",
       "price": 200,
-      "desc": "24/7 access to all equipment and amenities, plus personal training sessions."
-    }
-  ]
+      "features":  ["Gym access", "Locker room", "1 fitness ckass/week", "1personal training session", "webdevolopee"]
+  }]
   

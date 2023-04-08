@@ -36,13 +36,13 @@ const Navber = () => {
       ];
 
     return (
-         <nav className='bg-purple-400'>
-           <div onClick={() => setOpen(!open)}>
+         <nav className='bg-purple-400 px-4'>
+           <div onClick={() => setOpen(!open)} className='md:hidden'>
             {/* <span>{open === true? 'open': 'close'}</span> */}
             <span>{
                  open === true?
-                 <Bars3Icon className="h-6 w-6 text-purple-500" />
-             :  <XMarkIcon className="h-6 w-6 text-purple-500" />
+                 <Bars3Icon className="h-6 w-6 text-purple-500" />:
+               <XMarkIcon className="h-6 w-6 text-purple-500" />
              }
              </span>
            </div>
